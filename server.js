@@ -15,7 +15,7 @@ const app = express();
 const cors = require("cors");
 
 app.use(cors({
-  origin: "gumtree-au1t-5c5eizdp7-krishna-sigma.vercel.app",
+  origin: "gumtree-au1t-git-main-krishna-sigma.vercel.app",
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true
 }));
