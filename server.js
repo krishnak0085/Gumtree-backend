@@ -14,9 +14,9 @@ import Category from "./models/Category.js";
 const app = express();
 
 app.use(cors({
-  origin: "https://gumtree-au1t-5xir4isre-krishna-sigma.vercel.app/",
+  origin: "https://gumtree-au1t-5xir4isre-krishna-sigma.vercel.app",
   methods: ["GET","POST","PUT","DELETE"],
-  credentials: true
+  credentials: false
 }));
 app.use(express.json({ limit: '1mb' }));
 app.use(express.urlencoded({ limit: '1mb', extended: true }));
