@@ -12,7 +12,6 @@ import Product from "./models/Product.js";
 import Category from "./models/Category.js";
 
 const app = express();
-const cors = require("cors");
 
 app.use(cors({
   origin: "https://gumtree-au1t.vercel.app",
