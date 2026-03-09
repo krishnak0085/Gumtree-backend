@@ -221,6 +221,11 @@ app.post('/api/admin/login', async (req, res) => {
   res.json({ token });
 });
 
+//for awaking//
+app.get("/ping", (req, res) => {
+  res.json({ status: "Server is awake 🚀" });
+});
+
 
 app.listen(process.env.PORT || 4000, () => {
   console.log('API on http://localhost:' + (process.env.PORT || 4000));
